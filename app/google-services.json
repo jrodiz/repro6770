@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "711922233522",
+    "project_id": "repro6770",
+    "storage_bucket": "repro6770.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:711922233522:android:9659b1a2d7c8c1636999ab",
+        "android_client_info": {
+          "package_name": "com.jrodiz.app.repro6770"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCt5lbdc8MPtLAUWOYwueXdM-DF3duonUw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
