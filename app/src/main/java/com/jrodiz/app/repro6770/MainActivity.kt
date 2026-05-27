@@ -33,7 +33,15 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
-        text = "Hello $name!",
+        text = "Hi $name!",
+        modifier = modifier
+    )
+}
+
+@Composable
+fun Farewell(name: String, modifier: Modifier = Modifier) {
+    Text(
+        text = "Goodbye $name!",
         modifier = modifier
     )
 }
@@ -42,6 +50,6 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
     Repro6770Theme {
-        Greeting("Android")
+        Greeting("Compose")
     }
 }

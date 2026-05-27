@@ -31,7 +31,7 @@ android {
                 "proguard-rules.pro"
             )
             configure<com.google.firebase.crashlytics.buildtools.gradle.CrashlyticsExtension> {
-                mappingFileUploadEnabled = false
+                mappingFileUploadEnabled = true
             }
         }
     }
